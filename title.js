@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         req.open('GET', url + '&_=' + new Date().getTime(), true);
         req.responseType = 'json';
         req.send();
-        document_title = artist + title
     }
 
     updateInfo();
