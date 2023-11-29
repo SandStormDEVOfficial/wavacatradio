@@ -1,2 +1,2 @@
 var title = document.title;
-console.log(title);
+document.title = 'Новый заголовок страницы';
