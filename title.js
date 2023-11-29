@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let artist = document.getElementById('rbcloud_np_a'),
         title = document.getElementById('rbcloud_np_t'),
         cover = document.getElementById('rbcloud_np_c'),
-        url = 'https://c18.radioboss.fm/w/nowplayinginfo?u=591',
-        cover_url = 'https://c18.radioboss.fm/w/artwork/591.jpg',
+        url = 'https://c18.radioboss.fm/w/nowplayinginfo?u=0',
+        cover_url = '',
         type = Number('0');
 
     function updateInfo() {
